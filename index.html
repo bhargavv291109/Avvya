@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body><div id="cursorGlow" aria-hidden="true"></div>
   <div class="cursor-glow"></div>
   <header class="nav">
     <a class="brand" href="#home"><span class="monogram">A</span> AVVYA</a>
@@ -25,21 +25,22 @@
 
   <main id="home">
     <section class="hero">
-      <div class="hero-orb orb-one"></div>
+      <div class="hero-monogram" aria-hidden="true">A</div><div class="hero-orb orb-one"></div>
       <div class="hero-orb orb-two"></div>
       <div class="hero-content reveal">
-        <p class="eyebrow">CREATIVE / DESIGN / EDIT / ASSIST</p>
-        <h1>Build. Edit.<br><em>Elevate.</em></h1>
-        <p class="hero-copy">One place for your digital needs.</p>
+        <p class="eyebrow">DIGITAL CREATIVE STUDIO • 2026</p>
+        <h1>Ideas, designed<br><em>to feel premium.</em></h1>
+        <p class="hero-copy">Web experiences, visual editing and digital support — crafted with a luxury-first aesthetic and attention to every detail.</p>
         <div class="hero-actions">
           <a href="#services" class="btn btn-gold">Explore Services <span>↗</span></a>
           <a href="#work" class="btn btn-ghost">View Portfolio</a>
         </div>
       </div>
-      <div class="hero-card reveal delay" aria-label="AVVYA creative studio visual">
-        <img class="hero-card-image" src="hero-card-luxury.jpg" alt="AVVYA luxury creative workspace">
-        <div class="hero-card-overlay"></div>
-        <div class="hero-card-caption"><span>AVVYA</span><small>CREATIVE / DIGITAL</small></div>
+      <div class="hero-card reveal delay">
+        <div class="mini-label">CREATIVE / DIGITAL</div>
+        <div class="hero-card-title">Build. Edit.<br>Elevate.</div>
+        <div class="line"></div>
+        <p>One place for your digital needs.</p>
       </div>
       <div class="scroll">SCROLL <span>↓</span></div>
     </section>
@@ -59,52 +60,51 @@
           <div class="icon">⌘</div>
           <h3>Website<br>Designing</h3>
           <p>Modern landing pages, portfolio websites, business sites and responsive digital experiences.</p>
-          <a href="#contact">Start a project <span>↗</span></a><small class="service-note">Responsive • Modern • Premium</small>
+          <a href="#contact">Start a project <span>↗</span></a>
         </article>
         <article class="service-card reveal">
           <span class="number">02</span>
           <div class="icon">⌁</div>
           <h3>Photo<br>Editing</h3>
           <p>Retouching, enhancement, background cleanup, social media creatives and premium visual finishing.</p>
-          <a href="#contact">Discuss editing <span>↗</span></a><small class="service-note">Retouch • Enhance • Create</small>
+          <a href="#contact">Discuss editing <span>↗</span></a>
         </article>
         <article class="service-card reveal">
           <span class="number">03</span>
           <div class="icon">▶</div>
           <h3>Video<br>Editing</h3>
           <p>Reels, YouTube content, cinematic cuts, transitions, captions and polished social videos.</p>
-          <a href="#contact">Edit my video <span>↗</span></a><small class="service-note">Reels • YouTube • Cinematic</small>
+          <a href="#contact">Edit my video <span>↗</span></a>
         </article>
         <article class="service-card reveal">
           <span class="number">04</span>
           <div class="icon">◈</div>
           <h3>Account<br>Recovery</h3>
           <p>Guidance for legitimate account/password recovery using official provider recovery processes.</p>
-          <a href="#contact">Get guidance <span>↗</span></a><small class="service-note">Official recovery • Secure guidance</small>
+          <a href="#contact">Get guidance <span>↗</span></a>
         </article>
       </div>
     </section>
 
+    <section id="process" class="process section">
+  <div class="section-head reveal">
+    <p class="eyebrow">HOW I WORK</p>
+    <h2>From idea to <em>finished.</em></h2>
+    <p>A simple, personal process that keeps every project clear and polished.</p>
+  </div>
+  <div class="process-grid">
+    <div class="process-card reveal"><span>01</span><h3>Discuss</h3><p>We understand your idea, goals and requirements.</p></div>
+    <div class="process-card reveal"><span>02</span><h3>Create</h3><p>I build the design or edit around your vision.</p></div>
+    <div class="process-card reveal"><span>03</span><h3>Refine</h3><p>We fine-tune the details until everything feels right.</p></div>
+    <div class="process-card reveal"><span>04</span><h3>Deliver</h3><p>You receive the finished work, ready to use.</p></div>
+  </div>
+</section>
 
-    <section class="why section">
-      <div class="section-head reveal">
-        <div>
-          <p class="eyebrow">WHY AVVYA</p>
-          <h2>Simple ideas,<br><em>beautifully delivered.</em></h2>
-        </div>
-        <p class="section-intro">A focused creative approach where design, visuals and digital support work together as one polished experience.</p>
-      </div>
-      <div class="why-grid">
-        <article class="why-card reveal"><span>01</span><div class="why-icon">✦</div><h3>Clean Design</h3><p>Elegant layouts, thoughtful spacing and modern visual systems built around your identity.</p></article>
-        <article class="why-card reveal"><span>02</span><div class="why-icon">↗</div><h3>Fast Delivery</h3><p>Clear communication and an efficient workflow from first idea to final polished output.</p></article>
-        <article class="why-card reveal"><span>03</span><div class="why-icon">∞</div><h3>Personal Support</h3><p>One-to-one attention for websites, visuals and digital assistance under one roof.</p></article>
-      </div>
-    </section>
 <section id="work" class="work section">
       <div class="section-head reveal">
         <div>
-          <p class="eyebrow">WHY AVVYA</p>
-          <h2>Simple ideas,<br><em>beautifully delivered.</em></h2>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>A little taste of<br><em>the aesthetic.</em></h2>
         </div>
       </div>
       <div class="portfolio">
@@ -137,26 +137,11 @@
       </div>
     </section>
 
-
-    <section class="reviews section">
-      <div class="section-head reveal">
-        <div>
-          <p class="eyebrow">CLIENT NOTES</p>
-          <h2>Good work feels<br><em>even better shared.</em></h2>
-        </div>
-      </div>
-      <div class="review-grid">
-        <article class="review-card reveal"><div class="stars">★★★★★</div><p>“A clean and premium approach from the first idea to the final result. The details really made the difference.”</p><div class="review-author"><span>AK</span><div><strong>Creative Client</strong><small>Website Project</small></div></div></article>
-        <article class="review-card reveal"><div class="stars">★★★★★</div><p>“The visual work feels modern, polished and exactly the kind of finish I wanted for my content.”</p><div class="review-author"><span>RS</span><div><strong>Content Client</strong><small>Photo & Video</small></div></div></article>
-        <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Easy communication, thoughtful design and a result that feels much more premium than expected.”</p><div class="review-author"><span>VP</span><div><strong>Digital Client</strong><small>Creative Support</small></div></div></article>
-      </div>
-    </section>
-
     <section id="contact" class="contact section">
       <div class="contact-panel reveal"><div class="contact-logo">A</div>
         <p class="eyebrow">HAVE A PROJECT?</p>
-        <h2>Have a project<br><em>in mind?</em></h2>
-        <p>Bring me your idea. Let’s turn it into something clean, memorable and premium.</p>
+        <h2>Let's create<br><em>something exceptional.</em></h2>
+        <p>Tell me what you need and I’ll get back to you with the next steps.</p>
         <div class="contact-actions">
           <a class="btn btn-gold" href="mailto:bhargav291109@gmail.com">Email Me ↗</a>
           <a class="btn btn-ghost" href="https://wa.me/918886397139" target="_blank" rel="noopener">WhatsApp ↗</a>
@@ -166,7 +151,9 @@
     </section>
   </main>
 
-  <footer>
+  <a class="back-top" href="#home" aria-label="Back to top">↑</a>
+
+<footer>
     <div class="brand"><span class="monogram">A</span> AVVYA</div>
     <p>© 2026 Bhargav Digital Studio. Crafted with intention.</p>
     <a href="#home">Back to top ↑</a>
